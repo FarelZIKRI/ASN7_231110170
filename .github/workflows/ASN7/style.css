@@ -1,0 +1,85 @@
+/* style.css */
+
+/* Warna latar dan font default */
+body {
+    background: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #343a40;
+}
+
+/* Judul Halaman */
+h2 {
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Tombol Tambah dan Kembali */
+a.btn {
+    border-radius: 8px;
+    padding: 8px 20px;
+}
+
+/* Tabel Produk */
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* Header Tabel */
+.table thead th {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+}
+
+/* Baris Data */
+.table tbody td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* Tombol Aksi */
+.table a.btn-sm {
+    margin: 0 2px;
+    font-weight: 500;
+}
+
+/* Form Input */
+form .form-control {
+    border-radius: 6px;
+    box-shadow: none;
+    border: 1px solid #ced4da;
+    transition: all 0.3s ease-in-out;
+}
+
+form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.15rem rgba(0,123,255,0.25);
+}
+
+/* Alert Box */
+.alert {
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+/* Tombol Simpan & Update */
+button[type="submit"] {
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+/* Responsive Layout */
+@media (max-width: 576px) {
+    .table th, .table td {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}
